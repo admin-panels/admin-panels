@@ -1,11 +1,13 @@
+@import "rules"
+
 .inside 
-	width: 1224px
+	width: 1134px
 	margin: 0px auto
 	padding: 0px 00px
 	max-width: 100%
 
 .inside_big
-	width: 1390px
+	width: 1160px
 	margin: 0px auto
 	padding: 0px 00px
 	max-width: 100%
@@ -19,6 +21,8 @@
 
 body
 	background: url(../img/bg.png) !important
+	background-size: cover !important
+	
 
 .header_logo_line
 	display: inline-block
@@ -30,9 +34,9 @@ body
 
 .header_logo_text
 	color: #ffffff
-	font-family: 'PT Sans'
-	font-size: 12px
-	font-weight: 400
+
+	font-size: 17px
+	font-weight: 200
 	opacity: 0.8
 
 .header_logo
@@ -41,12 +45,13 @@ body
 .header_img
 	width: 148px
 	height: 149px
-	margin-right: -135px
+	margin-right: -177px
 	margin-top: -45px
 
 
 .header_menu
-	margin-left: -73px
+	margin-left: -100px
+	margin-top: -9px
 	.nav
 		ul
 			li
@@ -57,9 +62,9 @@ body
 
 				text-transform: uppercase
 				border: 1px solid transparent
-				padding: 5px 15px
+				padding: 14px 27px
 				transition: 0.3s
-				margin-right: 40px
+				margin-right: 21px
 				&:hover
 					border: 1px solid #fd0e2c
 					transition: 0.3s
@@ -85,7 +90,7 @@ header
 		text-transform: uppercase
 		opacity: 0.8
 		letter-spacing: 2.83px
-		margin-bottom: 20px
+		margin-bottom: 60px
 		
 
 	span
@@ -96,6 +101,7 @@ header
 		text-transform: uppercase
 
 	&_p
+
 		&_1
 
 		&_2
@@ -118,6 +124,7 @@ header
 #animation_container
 	margin: auto
 	margin-top: -90px
+	margin-bottom: 18px
 
 
 
@@ -131,6 +138,7 @@ body
 .logo_bottom
 	&_text
 		text-align: center
+		margin-bottom: -30px
 		
 		p, span
 			color: #ffffff
@@ -160,14 +168,17 @@ body
 			border: none
 			border-radius: 10px
 			background-color: #00d6ff
-			padding: 7px 20px
+			padding: 11px 17px
 			letter-spacing: 2.83px
+		&_pink
+			button
+				background-color: #ff62bd !important
 
 
 
 .bottom
 	margin-bottom: 20px
-	margin-top: 50px
+	margin-top: 80px
 	.inside_big
 		justify-content: space-between
 
@@ -208,6 +219,7 @@ body
 					padding: 6px 13px
 					letter-spacing: 1px
 
+
 			&_text
 				p
 					color: #000000
@@ -223,13 +235,98 @@ body
 
 
 
+.faq
+	&_block
+		justify-content: space-between
+		ul
+			flex-direction: column
+			li
+				font-family: "PT Sans"
+				font-size: 15px
+				font-weight: 400
+				text-transform: uppercase
+				letter-spacing: 2.02px
+				margin-bottom: 15px
+				display: inline-block
+				padding-left: 3px
+		&_l
+			li
+				color: #000000
+				background-color: #ffd01f
+		&_r
+			li
+				color: #ffffff
+				background-color: #ff62bd
 
 
 
 
+.rules_logo_text
+	letter-spacing: 3.25px !important 
 
 
 
+.logo_title
+	margin-bottom: 29px
+	.inside
+		text-align: center
+		
+	p
+
+		font-family: "PT Sans"
+		font-size: 120px
+		font-weight: 400
+		text-transform: uppercase
+	&_white
+		color: #ffd01f
+	&_blue
+		color: #874cff
+		margin-left: 26px
+		margin-right: 27px
+	&_red
+		color: #ff62bd
 
 
+.top_block_l
+	ul
+		margin-right: 13px
+		li
+			color: #ffffff
+			font-family: "PT Sans"
+			font-size: 15px
+			font-weight: 400
+			letter-spacing: 2.33px
+			text-transform: uppercase
+			margin-bottom: 8px
 
+.top_block_r
+	margin-left: 204px
+	align-items: flex-start
+	ul
+		margin-right: 13px
+		li
+			color: #ffffff
+			font-family: "PT Sans"
+			font-size: 15px
+			font-weight: 400
+			letter-spacing: 2.33px
+			text-transform: uppercase
+			margin-bottom: 8px
+	&_gray
+		background-color: rgba(0, 0, 0, 0.1)
+		padding: 5px 5px 0px 5px
+		margin-top: -5px
+		
+		margin-left: 15px
+
+		ul
+			margin-right: 0
+
+.top_block_graya_img
+	margin-right: 15px !important
+	li
+		height: 15px
+	
+.logo_title_text
+	p
+		margin-bottom: 15px
